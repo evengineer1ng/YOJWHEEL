@@ -1,0 +1,10 @@
+#!/bin/bash
+
+sudo bash -c '
+./pedals &
+./g29p1fr &
+./joyconforce1 &
+./g29sportyffb &
+./shiftersp1 &
+wait
+'
